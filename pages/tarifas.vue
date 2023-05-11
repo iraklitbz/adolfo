@@ -21,12 +21,27 @@
           </p>
           <div class="flex flex-col">
               <input type="text" class="border border-primary rounded-md px-4 py-2 w-full" placeholder="Escribe aquí tu correo">
-              <button class="bg-primary text-white rounded-md px-4 py-4 mt-5  md:w-1/2 m-auto"> SUSCRIBIRME </button>
+              <button class="bg-primary text-white rounded-md px-4 py-4 mt-5 md:w-1/2 m-auto" @click="sendEmail"> SUSCRIBIRME </button>
           </div>
       </div>
       <Footer />
   </div>
 </template>
+<script>
+export default {
+  name: 'Tarifas',
+  methods: {
+    sendEmail() {
+      const recipient = document.querySelector('input[type="text"]').value;
+      const subject = "Quiero suscribirme";
+      const body = "Estoy interesado en ver tus tarifas y newsletter, muchas gracias";
+      
+      const mailtoLink = `mailto:iraklitbz@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}&cc=${encodeURIComponent(recipient)}`;
+      window.location.href = mailtoLink;
+    }
+  }
+}
+</script>
 <style>
 .main-headline {
   font-family: 'Montserrat', sans-serif;
