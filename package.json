@@ -15,7 +15,8 @@
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
-    "webpack": "^4.46.0"
+    "webpack": "^4.46.0",
+    "nuxt-video-player": "^1.0.17"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
