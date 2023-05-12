@@ -36,7 +36,7 @@ export default {
       const subject = "Quiero suscribirme";
       const body = "Estoy interesado en ver tus tarifas y newsletter, muchas gracias";
       
-      const mailtoLink = `mailto:iraklitbz@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}&cc=${encodeURIComponent(recipient)}`;
+      const mailtoLink = `mailto:Info@adolfobianco.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}&cc=${encodeURIComponent(recipient)}`;
       window.location.href = mailtoLink;
     }
   }
