@@ -9,19 +9,20 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
+    "nuxt-video-player": "^1.0.17",
     "postcss": "^8.4.16",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
-    "webpack": "^4.46.0",
-    "nuxt-video-player": "^1.0.17"
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
-    "sass": "1.54.9",
     "postcss": "^8.4.17",
+    "sass": "1.54.9",
     "sass-loader": "10.3.1",
     "svg-inline-loader": "0.8.2",
     "svgo-loader": "2.2.2"
