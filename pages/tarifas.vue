@@ -8,7 +8,7 @@
               YA SE QUE BUSCAS FOTOGRAFO PARA TU BODA Y TODO TE PARECE IGUAL.
           </h3>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
-            Si es así, es normal porque en el sector de las bodas hay muchos clones. Déjame decirte que no soy un fotógrafo normal y espero que tú tampoco seas una novia que busca algo normal para su boda.
+              Si es así, es normal porque en el sector de las bodas hay muchos clones. Déjame decirte que no soy un fotógrafo normal y espero que tú tampoco seas una novia que busca algo normal para su boda.
           </p>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
             Te voy a enviar mis tarifas y te voy a invitar a suscribirte a mi newsletter, en ella vas a encontrar consejos que no vas a ver en internet, te vas a beneficiar de mi experiencia habiendo disparado más de 100 bodas. Te voy a contar que puedes hacer en caso de que llueva, que hacer si sientes inseguridad por salir bien en las fotos, como tratar con invitados complicados, como gestionar todo para que el reportaje de boda sea natural, como hacer si tu suegra se mete mucho en los preparativos y muchas cosas más que no te dicen en los foros ni en webs de boda.
@@ -17,7 +17,7 @@
             Siempre podrás darte de baja y dejar de recibir mis consejos, siempre al final te invitare a una llamada conmigo de contratación, no es para todo el mundo. Solo para novias que buscan algo especial.
           </p>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
-            Dicho esto, aquí puedes dejar tu mail para recibir mis tarifas y mi newsletter .
+            Dicho esto, aquí puedes dejar tu mail para recibir mis tarifas y mi newsletter.
           </p>
           <div class="flex flex-col bg-primary/20 rounded-md px-4 py-4 mt-5 max-w-xl m-auto">
               <!-- <input v-model="email" type="text" class="border border-primary rounded-md px-4 py-2 w-full" placeholder="Escribe aquí tu correo">
@@ -29,7 +29,7 @@
                       <form action="https://adolfobianco.us14.list-manage.com/subscribe/post?u=fa1ee2315a0aea68b75bc84b5&amp;id=87bd65bcfa&amp;f_id=003998e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                           <div id="mc_embed_signup_scroll">
                           <h2
-                            class="main-headline text-xl px-4 md:px-0 md:text-2xl text-primary my-10 block font-bold"
+                            class="main-headline text-xl px-4 md:px-0 md:text-2xl text-primary mt-10 mb-5 block font-bold"
                           >Suscríbete</h2>
                           <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                           <div class="mc-field-group">
@@ -38,17 +38,30 @@
                           <input type="email" value="" name="EMAIL" class="required email border border-primary rounded-md px-4 py-2 w-full h-10" id="mce-EMAIL" required>
                           <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
                   </div>
+                  <div
+                    class="text-lg px-4 md:px-0 text-primary font-thin items-center mb-5"
+                  >
+                      <input type="checkbox" value="1" name="policy" :checked="activeButton" class="mr-2" @input="handlePolicy">
+                      <span
+                      
+                      >
+                        Aceptar <nuxt-link to="/politica-de-privacidad" class="font-bold">poliíticas de privacidad</nuxt-link>
+                      </span>
+                  </div>
                 <div id="mce-responses" class="clear foot">
                   <div class="response" id="mce-error-response" style="display:none"></div>
                   <div class="response" id="mce-success-response" style="display:none"></div>
                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fa1ee2315a0aea68b75bc84b5_87bd65bcfa" tabindex="-1" value=""></div>
-                      <div class="optionalParent">
-                          <div class="clear foot">
-                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="bg-primary text-white rounded-md py-4 mt-5 md:w-1/2 m-auto">
-                          </div>
-                      </div>
-                  </div>
+                <div 
+                  style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fa1ee2315a0aea68b75bc84b5_87bd65bcfa" tabindex="-1" value=""></div>
+                    <div class="optionalParent">
+                        <div class="clear foot">
+                            <input type="submit" value="Subscribe" name="subscribe" :disabled="!activeButton" id="mc-embedded-subscribe" class="text-xl text-white rounded-md py-4 mt-5 md:w-1/2 m-auto"
+                            :class="activeButton ? 'cursor-pointer bg-primary' : 'cursor-not-allowed bg-primary/50'"
+                            >
+                        </div>
+                    </div>
+                </div>
               </form>
               </div>
 <!--End mc_embed_signup-->
@@ -92,6 +105,7 @@ export default {
   data() {
     return {
       email: '',
+      activeButton: false,
     }
   },
   methods: {
@@ -108,6 +122,9 @@ export default {
         // Aquí puedes mostrar un mensaje de error o manejar el error de otra manera
         console.error('Error al suscribirse', error);
       }
+    },
+    handlePolicy() {
+      this.activeButton = !this.activeButton
     }
   }
 }
@@ -130,9 +147,29 @@ export default {
     clear: left;
     position: relative;
     width: 100%;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
     min-height: 50px;
     display: grid;
+}
+#mc_embed_signup div#mce-responses {
+    float: left;
+    top: -1.4em;
+    padding: 0em;
+    overflow: hidden;
+    width: 100%;
+    margin: 0%;
+    clear: both;
+}
+#mc_embed_signup .foot {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+#mc_embed_signup .foot {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    align-items: center;
 }
 </style>
 
