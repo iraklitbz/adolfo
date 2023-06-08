@@ -8,16 +8,19 @@
               YA SE QUE BUSCAS FOTOGRAFO PARA TU BODA Y TODO TE PARECE IGUAL.
           </h3>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
-              Si es así, es normal porque en el sector de las bodas hay muchos clones. Déjame decirte que no soy un fotógrafo normal y espero que tú tampoco seas una novia que busca algo normal para su boda.
+              Es normal, cuando yo busque fotógrafo para mí me paso lo mismo.
           </p>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
-            Te voy a enviar mis tarifas y te voy a invitar a suscribirte a mi newsletter, en ella vas a encontrar consejos que no vas a ver en internet, te vas a beneficiar de mi experiencia habiendo disparado más de 100 bodas. Te voy a contar que puedes hacer en caso de que llueva, que hacer si sientes inseguridad por salir bien en las fotos, como tratar con invitados complicados, como gestionar todo para que el reportaje de boda sea natural, como hacer si tu suegra se mete mucho en los preparativos y muchas cosas más que no te dicen en los foros ni en webs de boda.
+            Yo no soy un fotógrafo normal y espero que tú tampoco seas una novia que busca algo normal para su boda.
           </p>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
-            Siempre podrás darte de baja y dejar de recibir mis consejos, siempre al final te invitare a una llamada conmigo de contratación, no es para todo el mundo. Solo para novias que buscan algo especial.
+            Más abajo puedes suscribirte a para recibir mis tarifas además te enviare una newsletter donde te voy a dar los mejores consejos que me hubiese gustado que me contasen a mí.
           </p>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
-            Dicho esto, aquí puedes dejar tu mail para recibir mis tarifas y mi newsletter.
+              No son consejos azucarados que puedes encontrar en google, son consejos de mi experiencia en más de 100 bodas, te serán de gran ayuda, da igual si me contratas o no.
+          </p>
+          <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
+            Te voy a contar que puedes hacer en caso de que llueva, si sientes inseguridad por salir bien en las fotos, como tratar con invitados complicados, como gestionar todo para que el reportaje de boda sea natural, como hacer si tu suegra se mete mucho en los preparativos o como librarte de invitados por compromiso, esto y muchas cosas más que no te dicen en los típicos foros ni en webs de boda.
           </p>
           <div class="flex flex-col bg-primary/20 rounded-md px-4 py-4 mt-5 max-w-xl m-auto">
               <!-- <input v-model="email" type="text" class="border border-primary rounded-md px-4 py-2 w-full" placeholder="Escribe aquí tu correo">
@@ -45,7 +48,7 @@
                       <span
                       
                       >
-                        Aceptar <nuxt-link to="/politica-de-privacidad" class="font-bold">poliíticas de privacidad</nuxt-link>
+                        Aceptar <nuxt-link to="/politica-de-privacidad" class="font-bold">políticas de privacidad</nuxt-link>
                       </span>
                   </div>
                 <div id="mce-responses" class="clear foot">

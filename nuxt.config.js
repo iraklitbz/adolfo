@@ -22,6 +22,10 @@ export default {
     '@/assets/css/main.css'
   ],
 
+  static: {
+    prefix: '/boletin/', // Prefijo para acceder a los activos estáticos
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -33,7 +37,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxt/postcss8'
+    '@nuxt/postcss8',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
