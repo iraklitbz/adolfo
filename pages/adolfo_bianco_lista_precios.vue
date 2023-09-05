@@ -27,12 +27,10 @@
       },
       mounted() {
         const imageContext = require.context('@/assets/lista/', false, /\.svg$/);
-        for (let i = 1; i <= 82; i++) {
-            const imagePath = `${i}.svg`;
-            if (imageContext.keys().includes(`./${imagePath}`)) {
+        for (let i = 1; i <= 14; i++) {
+            const imagePath = `${i}.jpg`;
             const image = require(`@/assets/lista/${imagePath}`);
             this.bodas.push(image);
-            }
         }
         }
     }

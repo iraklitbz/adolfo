@@ -14,7 +14,7 @@
             Yo no soy un fotógrafo normal y espero que tú tampoco seas una novia que busca algo normal para su boda.
           </p>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
-            Más abajo puedes suscribirte a para recibir mis tarifas además te enviare una newsletter donde te voy a dar los mejores consejos que me hubiese gustado que me contasen a mí.
+            Más abajo puedes suscribirte para recibir mis tarifas además te enviare una newsletter, donde te voy a dar los mejores consejos que me hubiese gustado que me contasen a mí.
           </p>
           <p class="text-lg px-4 md:px-0 md:text-xl text-primary text-center my-10 block font-thin">
               No son consejos azucarados que puedes encontrar en google, son consejos de mi experiencia en más de 100 bodas, te serán de gran ayuda, da igual si me contratas o no.
