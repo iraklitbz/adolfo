@@ -27,7 +27,7 @@
       },
       mounted() {
         const imageContext = require.context('@/assets/lista/', false, /\.svg$/);
-        for (let i = 1; i <= 12; i++) {
+        for (let i = 1; i <= 14; i++) {
             const imagePath = `${i}.jpg`;
             const image = require(`@/assets/lista/${imagePath}`);
             this.bodas.push(image);

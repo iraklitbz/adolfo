@@ -4,9 +4,6 @@
             <div
                 class="max-w-4xl m-auto justify-between relative z-40 px-5"
             >
-            <p class="text-xl px-4 md:px-0 md:text-3xl text-primary text-center my-10 block font-thin">
-                Si deseas ampliar tu reportaje con video y tener un recuerdo más completo e inolvidable también podemos hacerlo posible, <b>Alex Nicolaev</b> filmmaker profesional, hace que la magia se haga realidad.
-            </p>
             <div
                 v-for="(entryData, index) in videos"
                 :key="index"

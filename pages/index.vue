@@ -12,10 +12,6 @@
           <load-svg name="deco" class="decosvg text-primary-dark" />
         </div>
         <div class="absolute left-0 h-1 bg-primary-dark w-full z-10 top-1/2 transform -translate-y-1/2"></div>
-        <div class="relative p-5 md:p-10 w-44 md:w-52 h-16 md:h-24 flex items-center justify-center z-20 bg-white">
-          <div class="absolute w-32 md:w-40 h-14 md:h-20 bg-primary-dark z-10"></div>
-          <h2 class="main-headline relative uppercase text-xs md:text-2xl text-primary text-center z-10 font-bold">La persona tras la cámara</h2>
-        </div>
       </div>
        <div class="max-w-7xl m-auto">
 
@@ -26,14 +22,17 @@
             </div>
             <div class="w-4/6 px-5 md:px-20 relative z-10 mt-00">
               <h2 class="bg-decorativo"></h2>
-              <p class="text-xs md:text-3xl text-primary font-thin text-center mb-1 md:mb-4">
-                ¿Te gustaría disfrutar tu día sin estar pendiente de posar ante la cámara?
+              <p class="text-xs md:text-xl text-primary font-thin text-left mb-6 md:mt-10 md:mb-10">
+                Déjame que te cuente un secreto, a mí no me gusta hacerme fotos, siempre me veo mal y no me siento cómodo delante de la cámara.
               </p>
-              <p class="text-xs md:text-3xl text-primary font-thin text-center mb-1 md:mb-4">
-              ¿Qué te parece si yo me encargo de captar todos esos momentos únicos y vosotros os dejáis llevar?
+              <p class="text-xs md:text-xl text-primary font-thin text-left mb-6 md:mb-10">
+              ¿Tengo mis complejos y mis inseguridades.
             </p>
-            <p class="text-xs md:text-3xl font-thin text-primary text-center">
-              Como fotógrafo no solo me encargo de hacer unas fotografías que puedas recordar siempre, además quiero aportarte mi experiencia y asesoramiento para que disfrutéis al máximo
+            <p class="text-xs md:text-xl font-thin text-primary text-left mb-6 md:mb-10">
+              Sin embargo, sí tengo la habilidad de que la gente se sienta cómoda conmigo.
+            </p>
+            <p class="text-xs md:text-xl font-thin text-primary text-left">
+              NO hace falta que seas modelo de para que saque tu mejor versión y tengas las mejores fotos que nunca te han hecho.
             </p>
             </div>
           </div>
@@ -65,50 +64,32 @@
     <div class="opiniones bg-gray-200 py-16 px-5 md:px-0">
       <div class="carrousel relative">
         <div class="relative">
-          <div class="carrousel-box max-w-3xl m-auto">
-            <div class="galleryItems py-3 md:py-10">
-              <div>
-                <h6 class="text-primary uppercase text-center font-thin text-sm md:text-base"> 
-                  A mi pareja y a mí no nos gusta posar, queríamos un reportaje en el que no estuviésemos pendiente de la cámara y el resultado fue espectacular, tenemos fotos de momentos que nos han hecho revivir la boda y nos hemos vuelto a emocionar. Muchas gracias </h6> 
-                  <h5 class="text-primary uppercase text-center text-md md:text-xl mt-2">Por Irene Ruiz</h5>
-                </div>
-              </div>
-              <div class="galleryItems py-3 md:py-10">
-                <div>
-                  <h6 class="text-primary uppercase text-center font-thin text-sm md:text-base"> Las palabras Muchas Gracias no detallan la forma de trabajar y el resultado de lo que para nosotros ha sido un día tan especial. Es fantástica la amabilidad y la tranquilad con la que trabaja. Es una persona muy cercana que te hace sentir realmente a gusto. Es alucinante como puede retratar el momento perfecto que quedará siempre en el recuerdo </h6> 
-                  <h5 class="text-primary uppercase text-center text-md md:text-xl mt-2">Ana y Rubén</h5>
-                </div>
-              </div>
-              <div class="galleryItems py-3 md:py-10">
-                <div>
-                  <h6 class="text-primary uppercase text-center font-thin text-sm md:text-base"> Buscábamos un reportaje bonito, natural, con pocos posados y sin agobiar ni a novios ni a invitados. Captó momentos únicos, divertidos, diferentes. El trato de Adolfo no puede ser mejor a la hora de entregar el trabajo fue muy rápido! </h6> 
-                  <h5 class="text-primary uppercase text-center text-md md:text-xl mt-2">Por barthabascal</h5>
-                </div>
-              </div>
-            </div>
+          <div class="max-w-3xl m-auto">
+            <p class="text-primary text-center font-thin text-sm md:text-xl mb-6 md:mb-10">Sé que tu boda es especial, pero si el reportaje de tu boda no está a la altura te va a dar igual.</p>
+            <p class="text-primary text-center font-thin text-sm md:text-xl mb-6 md:mb-10">Te cuento, tengo tres ases bajo la manga que van hacer que tu evento sea la bomba:</p>
+            <ul>
+              <li class="text-primary text-center font-thin text-sm md:text-xl mb-3 md:mb-6">*Tendrás unas imágenes que muestren a los demás que vuestra boda fue excepcional, incomparable y mejor que todas en las que has estado.</li>
+              <li class="text-primary text-center font-thin text-sm md:text-xl mb-3 md:mb-6">*Saldréis guapos y naturales, no vais a tener que hacer posturitas ni cosas raras porque pasare desapercibido.</li>
+              <li class="text-primary text-center font-thin text-sm md:text-xl">*Te daré un trato un trato exclusivo y te ayudare con mi experiencia para que de lo único que tengas que preocuparte sea de pasártelo bien.</li>
+            </ul>
+          </div>
           </div>
         </div>
       </div>
       <div class="max-w-7xl m-auto pt-4 sm:pt-14 px-5 md:px-0">
-        <h2 class="text-3xl md:text-6xl text-center md:text-left text-primary-dark mb-2 md:mb-14">Consigue recuerdos Inolvidables</h2> 
         <div class="flex flex-row special">
           <div class="left">
             <img :src="require(`~/assets/pelicula.png`)" class="w-full">
           </div> 
           <div class="mt-4 pb-4 md:pb-0 right font-thin">
-            <p class="text-xs md:text-3xl text-primary text-center mb-1 md:mb-4">
-          El día de la boda todo pasa muy rápido mi trabajo empieza meses antes planificando vuestro día, acompañándoos y aconsejándoos en todo momento para vuestra tranquilidad.
-        </p> 
-        <p class="text-xs md:text-3xl text-primary text-center mb-1 md:mb-4">
-          Cuando pasen los años y veas las fotos de tu boda recordaras todos los momentos especiales, tus amigos, tu familia estarán siempre presente.
-        </p> 
-        <p class="text-xs md:text-3xl text-primary text-center mb-1 md:mb-4">
-          Llevas meses organizando todo, con las preocupaciones de que todo salga bien.
-        </p> 
-        <p class="text-xs md:text-3xl text-primary text-center">
-          Diez años fotografiando parejas en su día más importante, enamorado de mi trabajo, cuidando cada detalle al máximo para que tengáis el mejor reportaje que podáis imaginar.
-        </p>
-      </div>
+                <p class="text-xs md:text-xl text-primary text-left mb-6 md:mb-10">
+                  Tenía pensado ponerte las típicas opiniones de parejas que han contado conmigo como hace todo el mundo.
+                </p> 
+            <p class="text-xs md:text-xl text-primary text-left mb-6 md:mb-10">
+              Prefiero que veas lo que hago, no contarte rollos ni promesas vacías.
+            </p>
+            <Suscribir /> 
+          </div>
     </div>
   </div>
   <div class="bg-brown px-5 md:px-0">

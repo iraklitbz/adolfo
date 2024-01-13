@@ -4,7 +4,7 @@
         :class="menuOpen ? 'flex z-50 opacity-100' : 'hidden opacity-0'"
     >
         <li class="md:mr-10 mb-5 md:mb-0"><nuxt-link class="text-primary hover:text-primary-light font-thin transition-colors nuxt-link-exact-active nuxt-link-active" to="/">Inicio</nuxt-link></li>
-        <li class="md:mr-10 mb-5 md:mb-0"><nuxt-link class="text-primary hover:text-primary-light font-thin transition-colors nuxt-link-exact-active nuxt-link-active" to="/bodas">Bodas</nuxt-link></li>
+        <li class="md:mr-10 mb-5 md:mb-0"><nuxt-link class="text-primary hover:text-primary-light font-thin transition-colors nuxt-link-exact-active nuxt-link-active" to="/fotos">Fotos</nuxt-link></li>
         <li class="md:mr-10 mb-5 md:mb-0"><nuxt-link class="text-primary hover:text-primary-light font-thin transition-colors nuxt-link-exact-active nuxt-link-active" to="/videos">Videos</nuxt-link></li>
         <li class="md:mr-10 mb-5 md:mb-0"><nuxt-link class="text-primary hover:text-primary-light font-thin transition-colors nuxt-link-exact-active nuxt-link-active" to="/faqs">Preguntas frequentes</nuxt-link></li>
         <li class="md:mr-10 mb-5 md:mb-0"><nuxt-link class="text-primary hover:text-primary-light font-thin transition-colors nuxt-link-exact-active nuxt-link-active" to="/tarifas">Tarifas</nuxt-link></li>
