@@ -16,11 +16,11 @@
                 :key="index"
                 class="mb-5 bg-primary bg-opacity-10 p-5"
             >
-                <div 
+                <div
                     class="flex items-center cursor-pointer"
                     @click="handleActiveFaqs(faq.id)"
                 >
-                    <load-svg name="plus" 
+                    <load-svg name="plus"
                         class="text-primary w-9 mr-5 transition-all duration-500 ease-in-out"
                         :class="activeFaqsOpen.includes(faq.id) ? 'rotate-45' : 'rotate-0'"
                     />
@@ -32,7 +32,7 @@
                     class="transition-all duration-500 ease-in-out"
                     :class="activeFaqsOpen.includes(faq.id) ? 'h-auto' : 'h-0'"
                 >
-                <p 
+                <p
                     class="text-lg mt-7 pl-14 transition-all duration-200 ease-in-out font-thin"
                     :class="activeFaqsOpen.includes(faq.id) ? 'block' : 'hidden'"
                 >
@@ -41,13 +41,10 @@
                 </div>
             </div>
         </div>
-        <Suscribir 
-            class="mt-10"
-        />
         <Footer/>
     </div>
   </template>
-  
+
   <script>
   export default {
     name: 'faqs',
@@ -115,4 +112,3 @@
   }
   </script>
 
-  

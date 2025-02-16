@@ -38,8 +38,8 @@
           </div>
           <div class="link relative flex justify-end mt-7 md:mt-14">
               <div class="absolute left-0 top-1/2 transform -translate-y-1/2 h-1 w-full bg-primary-dark"></div>
-              <nuxt-link class="px-2 md:px-5 py-2 border-8 border-solid border-white bg-primary-dark text-white text-sm md:text-xl relative z-20" to="/tarifas">
-                Click para saber más 
+              <nuxt-link class="px-2 md:px-5 py-2 border-8 border-solid border-white bg-primary-dark text-white text-sm md:text-xl relative z-20" to="/contacto">
+                Click para saber más
               </nuxt-link>
           </div>
 
@@ -59,7 +59,7 @@
       <img :src="require(`~/assets/footer2.jpg`)" class="w-full" />
       <img :src="require(`~/assets/footer3.jpg`)" class="w-full" />
     </div>
-  
+
   </div>
     <div class="opiniones bg-gray-200 py-16 px-5 md:px-0">
       <div class="carrousel relative">
@@ -80,15 +80,14 @@
         <div class="flex flex-row special">
           <div class="left">
             <img :src="require(`~/assets/pelicula.png`)" class="w-full">
-          </div> 
+          </div>
           <div class="mt-4 pb-4 md:pb-0 right font-thin">
                 <p class="text-xs md:text-xl text-primary text-left mb-6 md:mb-10">
                   Tenía pensado ponerte las típicas opiniones de parejas que han contado conmigo como hace todo el mundo.
-                </p> 
+                </p>
             <p class="text-xs md:text-xl text-primary text-left mb-6 md:mb-10">
               Prefiero que veas lo que hago, no contarte rollos ni promesas vacías.
             </p>
-            <Suscribir /> 
           </div>
     </div>
   </div>
@@ -96,18 +95,18 @@
     <div class="max-w-7xl m-auto py-14">
       <div class="flex flex-col md:flex-row px-2">
         <div class="w-full md:w-1/3 flex flex-col items-center justify-center">
-          <h4 class="text-white text-2xl text-center md:text-left">Puedes ver más fotos en Instagram </h4> 
+          <h4 class="text-white text-2xl text-center md:text-left">Puedes ver más fotos en Instagram </h4>
             <a href="https://www.instagram.com/adolfo.bianco/" target="_blank" class="text-3xl text-primary text-center">
-              <load-svg name="instagram" class="text-white mt-4 md:mt-14"></load-svg>  
+              <load-svg name="instagram" class="text-white mt-4 md:mt-14"></load-svg>
             </a>
-          </div> 
+          </div>
           <div class="w-full md:w-2/3 mt-4 md:mt-0">
             <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-              <img :src="require(`~/assets/insta/1.jpg`)" class="w-full"> 
-              <img :src="require(`~/assets/insta/2.jpg`)" class="w-full"> 
-              <img :src="require(`~/assets/insta/3.jpg`)" class="w-full"> 
-              <img :src="require(`~/assets/insta/4.jpg`)" class="w-full"> 
-              <img :src="require(`~/assets/insta/5.jpg`)" class="w-full"> 
+              <img :src="require(`~/assets/insta/1.jpg`)" class="w-full">
+              <img :src="require(`~/assets/insta/2.jpg`)" class="w-full">
+              <img :src="require(`~/assets/insta/3.jpg`)" class="w-full">
+              <img :src="require(`~/assets/insta/4.jpg`)" class="w-full">
+              <img :src="require(`~/assets/insta/5.jpg`)" class="w-full">
               <img :src="require(`~/assets/insta/6.jpg`)" class="w-full">
             </div>
           </div>
